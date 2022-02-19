@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"pages/*": ["src/pages/*"],
+			"components/*": ["src/components/*"],
+			"routes/*": ["src/routes/*"],
+			"constants/*": ["src/constants/*"],
+			"styles/*": ["src/styles/*"],
+			"assets/*": ["src/assets/*"]
+		},
+		"target": "ESNext",
+		"jsx": "preserve"
+	},
+	"include": ["src"],
+	"exclude": ["node_modules"]
+}
